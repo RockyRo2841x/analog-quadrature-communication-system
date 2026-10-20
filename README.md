@@ -1,5 +1,7 @@
 # Analog Quadrature Communication System
 
+**Additional submission files and evidence:** see [Drive submission and evidence](docs/drive-evidence.md) for the separately preserved Drive circuit/report snapshot and available recordings or captures.
+
 A Proteus analog-circuit project exploring transmission of two low-frequency command signals over a shared channel using quadrature modulation, frequency conversion and demodulation.
 
 The design notes describe two **1 kHz input signals**, X and Y, multiplied by **50 kHz cosine and sine carriers**. Their modulated outputs are combined into one signal. The intended receiver translates the received signal to an intermediate frequency, separates the two channels using quadrature references, and filters the recovered outputs.
